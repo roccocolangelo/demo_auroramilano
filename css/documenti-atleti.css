@@ -1,0 +1,19 @@
+/* DOCUMENTI ATLETI – CSS DEDICATO */
+
+.documenti-atleti-box h3 {
+    color: #cc3a3a;
+    font-weight: 700;
+}
+
+.documenti-atleti-box ul li {
+    margin: 12px 0;
+}
+
+.documenti-atleti-box ul li a {
+    font-size: 1.05em;
+}
+
+.documenti-atleti-box ul li a:hover {
+    padding-left: 6px;
+    text-decoration: underline;
+}

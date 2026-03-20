@@ -1,0 +1,19 @@
+/* NEWSLETTER AURORA – CSS DEDICATO */
+
+.newsletter-aurora-box h3 {
+    color: #cc3a3a;
+    font-weight: 700;
+}
+
+.newsletter-aurora-box ul li {
+    margin: 14px 0;
+}
+
+.newsletter-aurora-box ul li a {
+    font-size: 1.08em;
+}
+
+.newsletter-aurora-box ul li a:hover {
+    padding-left: 6px;
+    text-decoration: underline;
+}
