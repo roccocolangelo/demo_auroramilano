@@ -1,5 +1,5 @@
 ===========================================
-ASD AURORA MILANO - NUOVE PAGINE SITO WEB
+ASD lozabo MILANO - NUOVE PAGINE SITO WEB
 ===========================================
 
 CONTENUTO DEL PACCHETTO:
@@ -99,13 +99,13 @@ CONTATTI:
 ---------
 
 Per supporto tecnico o domande:
-Email: segreteria@auroramilano.it
+Email: segreteria@lozabomilano.it
 
 
 LICENZA:
 --------
 
-© 2026 ASD Aurora Milano - Tutti i diritti riservati
+© 2026 ASD lozabo Milano - Tutti i diritti riservati
 
 
 Note tecniche:
