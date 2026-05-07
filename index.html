@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="it-IT">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,76 +11,93 @@
 
 <body>
 
-<div class="container">
+    <div class="container">
 
-    <!-- HEADER -->
-    <header class="hero">
-        <h1>Portale Aurora</h1>
-        <p class="intro">
-            Documenti, regolamenti e materiali per atleti, allenatori e gestione
-        </p>
-    </header>
+        <!-- HEADER -->
+        <header class="hero">
+            <h1>Portale Aurora</h1>
+            <p class="intro">
+                Documenti, regolamenti e materiali per atleti, allenatori e gestione
+            </p>
+        </header>
 
-    <!-- CONTENUTO -->
-    <main>
+        <!-- CONTENUTO -->
+        <main>
 
-        <!-- SAFEGUARDING -->
-        <section class="section-box primary">
-            <h3>Safeguarding</h3>
+            <!-- SAFEGUARDING -->
+            <section class="section-box primary">
+                <h3>Safeguarding</h3>
 
-            <ul class="link-list dot">
-                <li><a href="/safeguarding-aurora.html">Riferimenti del Referente</a></li>
-                <li><a href="/safeguarding-regolamento.html">Regolamento interno</a></li>
-                <li><a href="/safeguarding-codice-condotta.html">Codice di condotta</a></li>
-                <li><a href="/modello-organizzativo.html">Modello organizzativo Aurora Milano</a></li>
-                <li><a href="/codice-etico.html">Codice etico adottato</a></li>
-                <li><a href="/materiali-segnalazione.html">Materiali per la segnalazione</a></li>
-            </ul>
-        </section>
+                <ul class="link-list dot">
+                    <li><a href="/safeguarding-aurora.html">Riferimenti del Referente</a></li>
+                    <li><a href="/safeguarding-regolamento.html">Regolamento interno</a></li>
+                    <li><a href="/safeguarding-codice-condotta.html">Codice di condotta</a></li>
+                    <li><a href="/modello-organizzativo.html">Modello organizzativo Aurora Milano</a></li>
+                    <li><a href="/codice-etico.html">Codice etico adottato</a></li>
+                    <li><a href="/materiali-segnalazione.html">Materiali per la segnalazione</a></li>
+                </ul>
+            </section>
 
-        <!-- ALLENATORI -->
-        <section class="section-box">
-            <h3>Allenatori</h3>
+            <section class="section-box primary">
+                <div class="upload-box">
+                    <form id="upload-form">
+                        <label class="file-label">
+                            <input type="file" name="file" required />
+                            <span>Scegli documento</span>
+                        </label>
 
-            <ul class="link-list dot">
-                <li><a href="/documenti-allenatori.html">Documenti allenatori</a></li>
-                <li><a href="/newsletter-allenatori.html">Newsletter allenatori</a></li>
-                <li><a href="/shorts-allenatori.html">Shorts allenatori</a></li>
-            </ul>
-        </section>
+                        <button class="btn-upload">Carica documento</button>
+                    </form>
 
-        <!-- ATLETI -->
-        <section class="section-box">
-            <h3>Atleti</h3>
+                    <p id="status"></p>
+                </div>
+            </section>
 
-            <ul class="link-list dot">
-                <li><a href="/documenti-atleti.html">Documenti atleti</a></li>
-                <li><a href="/newsletter-atleti.html">Newsletter atleti</a></li>
-                <li><a href="/shorts-atleti.html">Shorts atleti</a></li>
-            </ul>
-        </section>
 
-        <!-- NEWSLETTER -->
-        <section class="section-box">
-            <h3>Newsletter Aurora</h3>
-            <p class="empty">Contenuti in aggiornamento</p>
-        </section>
+            <!-- ALLENATORI -->
+            <section class="section-box">
+                <h3>Allenatori</h3>
 
-        <!-- FOTOGALLERY -->
-        <section class="section-box">
-            <h3>Fotogallery</h3>
-            <p class="empty">Contenuti in aggiornamento</p>
-        </section>
+                <ul class="link-list dot">
+                    <li><a href="/documenti-allenatori.html">Documenti allenatori</a></li>
+                    <li><a href="/newsletter-allenatori.html">Newsletter allenatori</a></li>
+                    <li><a href="/shorts-allenatori.html">Shorts allenatori</a></li>
+                </ul>
+            </section>
 
-    </main>
+            <!-- ATLETI -->
+            <section class="section-box">
+                <h3>Atleti</h3>
 
-    <!-- FOOTER -->
-    <footer>
-        <hr>
-        <p class="footer-note">Aurora Milano · Portale documentale</p>
-    </footer>
+                <ul class="link-list dot">
+                    <li><a href="/documenti-atleti.html">Documenti atleti</a></li>
+                    <li><a href="/newsletter-atleti.html">Newsletter atleti</a></li>
+                    <li><a href="/shorts-atleti.html">Shorts atleti</a></li>
+                </ul>
+            </section>
 
-</div>
+            <!-- NEWSLETTER -->
+            <section class="section-box">
+                <h3>Newsletter Aurora</h3>
+                <p class="empty">Contenuti in aggiornamento</p>
+            </section>
+
+            <!-- FOTOGALLERY -->
+            <section class="section-box">
+                <h3>Fotogallery</h3>
+                <p class="empty">Contenuti in aggiornamento</p>
+            </section>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <hr>
+            <p class="footer-note">Aurora Milano · Portale documentale</p>
+        </footer>
+
+    </div>
 
 </body>
+
 </html>
