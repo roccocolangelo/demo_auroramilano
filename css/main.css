@@ -5,6 +5,30 @@
     box-sizing: border-box;
 }
 
+/* === DOC BLOCK PROFILO === */
+
+.doc-block {
+  margin-bottom: 28px; /* più aria */
+}
+
+/* titoli rossi, coerenti con Lozabo */
+.doc-title {
+  color: #b30000 !important;
+  font-weight: 700;
+  margin-bottom: 8px;
+  font-size: 1.05em;
+}
+
+/* testo specifico rosso (come volevi) */
+.doc-text {
+  color: #b30000;
+  font-size: 0.98em;
+  line-height: 1.6;
+  margin: 6px 0;
+  font-weight: 500;
+}
+
+
 /* HEADER FLEX & SOCIAL CARDS */
 .site-header {
   display: flex;
@@ -324,11 +348,6 @@ footer a:hover {
     }
 }
 
-{
-  font-size: 0.95em;
-  color: #666;
-  margin-bottom: 15px;
-}
 
 /* lista numerata elegante */
 .link-list.numbered {
