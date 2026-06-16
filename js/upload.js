@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // ✅ Upload file
   if (form) {
-    form.addEventListener("submit", async (e) => {
+    form.addEventListener("submit", async (e)  => {
       e.preventDefault();
 
       const data = new FormData(form);
